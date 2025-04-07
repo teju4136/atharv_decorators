@@ -1,0 +1,826 @@
+* {
+margin: 0px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: none;
+}
+
+/* code start for navbar */
+
+.toolbar {
+height: 110px;
+
+border: 0PX solid rgb(140, 133, 133);
+background-image: url(image/bgimage.jpg);
+background-size: cover;
+border: 1px solid black;
+border-bottom: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.toolbar1 {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    /* background-color: #4db2c8; */
+    background-color: #4db2c8;
+ 
+}
+.tool {
+        height: 35px;
+        display: flex;
+       /*  */
+        align-items: center;
+        /* background-color: #4db2c8; */
+        background-color: #4db2c8;
+        border: 1px solid black;
+       
+    }
+
+/* .navlogo { */
+ /* width: 195px; */
+/* height: 90px; */
+/* border-radius: 5px; */
+/* margin-left: 80PX; */
+/* } */
+
+.animated-border {
+    position: relative;
+    padding: 2px 2px;
+    font-size: 16px;
+    color: #fff;
+    background: #2b2b2b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 50px;
+  }
+  
+  .animated-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, 
+      #ff0000, #ff7300, #fffb00, #48ff00,
+      #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400%;
+    z-index: 0;
+    border-radius: 5px;
+    animation: border-animation 20s linear infinite;
+  }
+  
+  .animated-border::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #2b2b2b;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  @keyframes border-animation {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+.logo {
+    width: 193px;
+    height: 88px;
+    border-radius: 5px;
+    background-image: url(image/og\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.nimage {
+    height: 20px;
+    width: 30px;
+    background-image: url(image/l1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.home {
+    border: 1PX SOLID black;
+    margin-left: 200px;
+    background-color: rgb(165, 231, 255);
+    font-size: 18px;
+}
+.home:hover {
+     background-color: rgb(255, 255, 255);
+}
+.home:active {
+    color: red;
+}
+
+.aboutus {
+    border: 1PX SOLID black;
+    margin-left: 70px;
+    background-color: rgb(165, 231, 255);
+    font-size: 18px;
+}
+.aboutus:hover {
+    background-color: rgb(255, 255, 255);
+}
+.aboutus:active {
+    color: red;
+}
+
+.photo {
+    border: 1PX SOLID black;
+    margin-left: 70px;
+    background-color: rgb(165, 231, 255);
+    font-size: 18px;
+}
+.photo:hover {
+    background-color: rgb(255, 255, 255);
+}
+.photo:active {
+    color: red;
+}
+
+.login {
+    border: 1PX SOLID black;
+    margin-left: 70px;
+    background-color: rgb(165, 231, 255);
+    font-size: 18px;
+}
+.login:hover {
+    background-color: rgb(255, 255, 255);
+}
+.login:active {
+    color: red;
+}
+
+.phone {
+    border: 1PX SOLID black;
+    margin-left: 70px;
+    background-color: rgb(165, 231, 255);
+}
+.phone:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+.number {
+    margin-right: 80px;
+    width: 170px;
+}
+.loc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 500px;
+   
+}
+.loc p {
+    font-family: "Quantico", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+.loc1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.toolbar1 li {
+    list-style-type: none;
+}
+.toolbar1.active {
+   display: none;
+   animation: ease-in-out;
+   animation-duration: 1s;
+    
+}
+.nav-toggle {
+    position: absolute;
+    display: inline-block;
+    margin-left: 90%;
+    margin-top: 7px;
+    display: none;
+}
+.fa-bars {
+    font-size: 20px;
+    color: #000000;
+}
+/* code end for navbar */
+/* code start for main */
+#mainindex {
+    height: 2380px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-image: url(image/bgi.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#mainlogin {
+    height: 600px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-image: url(image/bgi.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mainabout {
+    height: 600px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-image: url(image/bgi.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mainphotos {
+    height: 6800px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-image: url(image/bgi.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/* code end for main */
+/* code start for slider */
+.slider {
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+    max-width: 1200px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    height: 600px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    ;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-shrink: 0; /* Prevent images from shrinking */
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.612);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+/* code end for slider */
+
+/* code start for footer */
+.footer {
+    height: 150px;
+   background-image: url(image/foot.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: 1PX SOLID rgb(0, 0, 0);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.what {
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+    border: 1.5px rgb(0, 0, 0);
+    display: flex;
+    position: absolute;
+    margin-bottom: 90px;
+}
+.wlogo {
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+    background-image: url(image/whatsapplogo.png);
+    opacity: 0.6;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.wlogo:hover {
+    opacity: 1;
+}
+
+.l {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 20px;
+    width: 738px;
+    border-radius: 5px;
+    position: absolute;
+    margin-bottom: 10px;
+}
+/* .l1 { */
+    /* text-align: center; */
+/* } */
+.limage {
+    height: 20px;
+    width: 20px;
+    background-image: url(image/l1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+.copy {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 110px;
+}
+
+/* code end for footer */
+
+/* code start for home page */
+
+
+.heading1 {
+    color: #ba2525;
+    margin-top: 20px;
+    font-size: 80px;
+   font-family: "tangerine", serif;
+    
+}
+.heading2 {
+  margin-bottom: 10px;
+  font-family: "Almendra", serif;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#amd {
+    display: inline;
+    font-size: 19px;
+    font-weight: 600;
+font-family: "Almendra", serif;
+}
+#amd1 {
+    display: inline;
+    font-size: 19px;
+    font-weight: 600;
+font-family: "Almendra", serif;
+}
+#amd2 {
+    display: inline;
+    font-size: 19px;
+    font-weight: 600;
+font-family: "Almendra", serif;
+}
+#info {
+    margin: 20px;
+    font-size: 18px;
+   line-height: 30px;
+   font-weight: 600;
+   font-family: "Almendra", serif;
+   text-align: center;
+}
+.box {
+    width: 400px;
+    height: 400px;
+    background-image: url(image/sky.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bp {
+    display: block;
+    margin: 0%;
+    padding: 0%;
+  font-size: 22px;
+   text-align: center;
+   font-family: "Quantico", sans-serif;
+   font-weight: 550;
+}
+.boxp {
+    width: 370px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#box1 {
+    margin-right: 500px;
+    margin-top: 10px;
+}
+#box2 {
+ position: absolute;
+ margin-top: 886px;
+ margin-left: 500px;
+}
+#box3 {
+    margin-top: 60px;
+    margin-right: 500px;
+}
+#box4 {
+    position: absolute;
+    margin-top: 1346px;
+    margin-left: 500px;
+}
+#box5 {
+    margin-top: 60px;
+margin-right: 500px;
+}
+#box6 {
+    position: absolute;
+    margin-top: 1806px;
+    margin-left: 500px;
+}
+#amd1 {
+    display: inline;
+    font-size: 20px;
+}
+#amd2 {
+    display: inline;
+    font-size: 20px;
+}
+#amd3 {
+    display: inline;
+    font-size: 19px;
+    font-family: "Almendra", serif;
+}
+.call {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Almendra", serif;
+    font-weight: 600;
+}
+#amd4 {
+    text-align: center;
+    font-family: "Almendra", serif;
+    margin-top: 15px;
+}
+/* code end for home page */
+
+/* code start for login page  */
+.login-container {
+    height: 450px;
+    width: 500px;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.main h4 {
+    font-family: "Almendra", serif;
+    text-align: center;
+    
+}
+.contact-main h2 {
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    margin-bottom: 350px;
+    margin-right: 100px;
+    font-family: "Tangerine", cursive;
+
+}
+.contact-main {
+    height: 450px;
+    width: 500px;
+    border-radius: 25px;
+    background-image: url(image/darkblue.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-main hr {
+    border: none;
+    width: 100px;
+    height: 5px;
+    margin-right: 160px;
+    background-color: azure;
+    position: absolute;
+    margin-bottom: 300px;
+
+}
+.contact-input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+   
+    border: none;
+    font-size: 16px;
+}
+#input1 {
+    position: absolute;
+    margin-bottom: 200px;
+}
+#input2 {
+    position: absolute;
+   margin-bottom: 80px;
+}
+#input3 {
+    position: absolute;
+    margin-top: 40px;
+}
+.login-container textarea {
+    position: absolute;
+    margin-top: 200px;
+}
+.contact-main button {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 365px;
+}
+.contact-main textarea {
+    height: 80px;
+}
+
+#mainlogin h4{
+    margin-top: 20px;
+    font-size: 30px;
+}
+/* code end for login page  */
+
+/* code start for photo page */
+.line1 {
+    width: 1050px;
+    height: 300px;
+    background-image: url(image/bgformainphotos.jpg);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0px;
+    padding: 0px;
+}
+.line2 {
+    width: 1050px;
+    height: 300px;
+    background-image: url(image/bgformainphotos.jpg);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0px;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+.photo123 {
+    margin-top: 25px;
+    font-family: "Almendra", serif;
+}
+.p {
+   margin: 0;
+   padding: 0;
+    height: 280px;
+    border-radius: 20px;
+    
+}
+.p img {
+    height: 280px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+#mainphotos h2 {
+    font-family: "Almendra", serif;
+    color:rgb(214, 54, 105)
+}
+
+
+.thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+}
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.modal-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 20px;
+}
+.prev-btn {
+    left: 10px;
+}
+.next-btn {
+    right: 10px;
+}
+/* code end for photo page */
+
+/* code start for about us page */
+#mainabout h1 {
+margin-top: 20px;
+font-size: 32px;
+font-family: "tangerine", serif;
+color: #ba2525;
+}
+#mainabout p {
+    font-size: 18px;
+    font-family: "Almendra", serif;
+    font-weight: 550;
+}
+.pfont {
+    display: inline;
+}
+.p1 {
+    width: 760px;
+    
+    font-family: "Almendra", serif;
+    font-weight: 550;
+}
+.p2 {
+    width: 710px;
+    font-family: "Almendra", serif;
+    font-weight: 550;
+}
+.p3 {
+    width: 760px;
+    font-family: "Almendra", serif;
+    font-weight: 550;
+}
+/* code end for about us page */
+
+
+
+/* code start for loader page */
+
+.logo12 {
+    width: 193px;
+    height: 88px;
+    border-radius: 5px;
+    background-image: url(image/og\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+
+.animated-border1 {
+    position: relative;
+    padding: 2px 2px;
+    font-size: 16px;
+    color: #fff;
+    background: #2b2b2b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 0px;
+  }
+  
+  .animated-border1::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, 
+      #ff0000, #ff7300, #fffb00, #48ff00,
+      #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400%;
+    z-index: 0;
+    border-radius: 5px;
+    animation: border-animation 20s linear infinite;
+  }
+  
+  .animated-border1::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #2b2b2b;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  @keyframes border-animation {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+
+
+
+  .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.loader {
+    animation: pulse 1.5s ease-in-out infinite;
+    width: auto;
+    height: auto;
+}
+.loader img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@keyframes pulse  {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+  /* code end for loader page */

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv mandap decorators</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+      </style>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+</head> 
+<body>
+    <header>
+      <div class="toolbar">
+         <div class="animated-border">
+            <div class="logo">
+            </div>
+         </div>
+         <div class="loc">
+            <div class="nimage"></div>
+            <p>OUR SERVICES LOCATION :- KALAMBOLI, PANVEL, KAMOTHE,
+               
+               KHARGHAR, NAVI-MUMBAI, PIN-410218 
+            </p>
+         </div>
+         <div class="number">
+            <p> 📞 +91 9930834640
+              
+                📞 +91 8108934136
+            </p>
+         </div>
+       </div>
+       <a href="#"  class="nav-toggle" id="nav-toggle">
+         <i class="fa-solid fa-bars" ></i>
+       </a>
+       <div class="tool">
+       <div class="toolbar1 " id="toolbar1">
+         
+            <li class="navli"><a href="index.html" class="home"> HOME</a></li>
+            <li class="navli"><a href="about.html" class="aboutus"> ABOUT US</a></li>
+            <li class="navli"><a href="photos.html" class="photo"> PHOTOS</a></li>
+            <li class="navli"><a href="login.html" class="login"> QUERY</a></li>
+         
+       </div>
+      </div>
+     </header>
+
+        <!-- main for home -->
+<main>
+    
+   <div class="main" id="mainabout">
+    <h1>ATHARV DECORATORS</h1>
+
+    <br>
+
+    <div class="p1">
+      At <p class="pfont">Atharv Decorators,</p> we don’t just decorate spaces - we craft experiences. Let us help you reimagine
+      
+      your environment with creativity, precision, and passion.
+
+      Get in touch today to begin your design journey!
+    </div>
+   <br>
+   <div class="p2">
+      <p class="pfont">Our Services :</p>
+      <br>
+      <p class="pfont">• Weddings:</p> Mandaps, aisle decor, stage backdrops, and thematic setups.
+         <br>
+         <p class="pfont">• Corporate Events:</p> Branded stage designs, lounge setups, and experiential installations.
+         <br>
+         <p class="pfont">• Social Celebrations:</p> Birthdays, anniversaries, baby showers, and festive decor.
+         <br>
+         <p class="pfont">• Floral & Lighting Artistry:</p> Fresh blooms, ambient lighting, and innovative installations.
+   </div>
+   <br>
+   <div class="p3">
+      <p class="pfont">Why Choose Us?</p>
+      <br>
+      <p class="pfont">• Experienced Team:</p> Our skilled designers and artisans bring years of expertise to every project.
+      <br>
+      <p class="pfont">• Client-Centric Approach:</p> We prioritize your needs, budget, and timeline.
+      <br>
+      <p class="pfont">• Quality Assurance:</p> Premium materials and flawless execution ensure durability and beauty.
+   </div>
+
+   </div>
+
+</main>
+
+<!-- footer -->
+<footer>
+  <div class="footer">
+     <div class="what">
+        <a href="https://wa.me/919930834640" class="wlogo"></a>
+     </div>
+     <div class="l">
+        <div class="limage"></div>
+        <p class="l1">
+           OUR SERVICES LOCATION :- KALAMBOLI, PANVEL, KAMOTHE, KHARGHAR, NAVI-MUMBAI, PIN-410218 
+        </p>
+     </div>
+     
+     <div class="copy"> ©All Right Reserved With 
+        <a href="#" style="color: rgba(255, 255, 255,0.7);">atharvdecorators.com</a>
+     </div>
+   
+  </div>
+</footer>
+    
+ <!-- code start for loader page -->
+        
+ <div class="loader-container">
+   <div class="loader">
+       <div class="animated-border1">
+           <div class="logo12">
+           </div>
+        </div>
+   </div>
+</div>
+
+<!-- code start for loader page -->
+
+<script>
+   // code for navbar
+   const toggleButton = document.getElementById('nav-toggle');
+      const toolbar1 = document.getElementById('toolbar1');
+      
+      toggleButton.addEventListener('click', () => {
+          toolbar1.classList.toggle('active')
+      })
+
+
+
+        // Example JavaScript to hide loader when content is loaded
+  window.addEventListener('load', function() {
+      document.querySelector('.loader-container').style.display = 'none';
+  });
+  // Or if you want to control it manually:
+  // setTimeout(() => {
+  //     document.querySelector('.loader-container').style.display = 'none';
+  // }, 3000);
+     </script>
+</body>
+
+</html>

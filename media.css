@@ -1,0 +1,897 @@
+@media screen and (max-width: 821px) {
+
+}
+
+
+
+
+@media screen and (max-width: 769px) {
+
+}
+
+
+
+
+@media screen and (max-width: 430px) {
+    /* code start for navbar */
+    .toolbar{
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+.toolbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 20px;
+}
+.tool {
+   
+   
+   
+   
+    gap: 20px;
+    height: 20px;
+}
+.navli {
+    margin-bottom: 3px;
+}
+.home{
+  margin: 0;
+  font-size: 12px;
+  
+  
+}
+.aboutus{
+    margin: 0;
+    font-size: 12px;
+}
+.photo{
+    margin: 0;
+    font-size: 12px;
+}
+.login{
+    margin-left: 0px;
+    font-size: 12px;
+}
+.number{
+    margin: 0;position: absolute;
+    margin-right: 0px;
+    margin-top: 65px;
+    width: 191px;
+}
+.number p{
+    font-size: 10px;
+    
+}
+.loc{
+    margin: 0;
+    font-size: 10px;
+    height: 50px;
+    width: 200px;
+    margin-left: 175px;
+    margin-bottom: 20px;
+}
+.nimage {
+    height: 20px;
+    width: 30px;
+    background-image: url(image/l1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-top: 2px;
+}
+.loc p{
+    font-size: 10px;
+
+}
+.loc1{
+    margin-left: 200px;
+   
+
+}
+.logo {
+    width: 110px;
+    height: 50px;
+    
+}
+.animated-border {
+    position: absolute;
+    margin-right: 255px;
+    margin-bottom: 20px;
+}
+.nav-toggle {
+    position: absolute;
+    display: inline-block;
+    margin-left: 90%;
+    margin-top: 2px;
+}
+.fa-bars {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* code end for navbar */
+
+/* code start for main  */
+#mainindex {
+height: 2610px;
+}
+.heading1 {
+font-size: 40px;
+text-align: center;
+margin-top: 10px;
+}
+.heading2 {
+font-size: 14px;
+margin-bottom: 6px;
+}
+.slider {
+height: 240px;
+}
+#info {
+font-size: 14px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+#amd {
+font-size: 14px;
+}
+#amd1 {
+font-size: 14px;
+}
+#amd2{
+font-size: 14px;
+}
+#amd3{
+font-size: 14px;
+}
+#amd4{
+font-size: 14px;
+margin-top: 7px;
+}
+.call {
+font-size: 14px;
+}
+.box {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 300px;
+height: 300px;
+}
+.bp {
+font-size: 15px;
+margin-bottom: 0px;
+}
+.boxp {
+width: 280px;
+height: 266px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+#box1 {
+margin: 0;
+margin-bottom: 30px;
+}
+#box2 {
+margin: 0;
+position: static;
+margin-bottom: 30px;
+}
+#box3 {
+margin: 0;
+margin-bottom: 30px;
+}
+#box4 {
+margin: 0;
+position: static;
+margin-bottom: 30px;
+
+}
+#box5 {
+margin: 0;
+margin-bottom: 30px;
+}
+#box6 {
+margin: 0;
+position: static;
+}
+/* code end for main */
+
+/* code start for footer  */
+.footer {
+    height: 120px;
+}
+
+
+.what {
+    height: 30px;
+    width: 120px;
+    margin-bottom: 70px;
+}
+.wlogo {
+    height: 30px;
+    width: 120px;
+}
+.copy{
+    font-size: 10px;
+    margin-top: 90px;
+}
+.l1 {
+    font-size: 12px;
+    display: inline;
+}
+.l {
+    width: 288px;
+    height: 30px;
+    margin-top: 15px;
+}
+.limage {
+    height: 25px;
+    width: 25px;
+}
+
+/* code end for footer */
+}
+
+
+
+@media screen and (max-width: 426px) {
+    /* code start for navbar */
+    .toolbar{
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+.toolbar1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 20px;
+}
+.tool {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 20px;
+}
+.home{
+  margin: 0;
+  font-size: 12px;
+  
+}
+.aboutus{
+    margin: 0;
+    font-size: 12px;
+}
+.photo{
+    margin: 0;
+    font-size: 12px;
+}
+.login{
+    margin-left: 0px;
+    font-size: 12px;
+}
+.number{
+    margin: 0;position: absolute;
+    margin-right: 0px;
+    margin-top: 65px;
+    width: 191px;
+}
+.number p{
+    font-size: 10px;
+    
+}
+.loc{
+    margin: 0;
+    font-size: 10px;
+    height: 50px;
+    width: 200px;
+    margin-left: 175px;
+    margin-bottom: 20px;
+}
+.nimage {
+    height: 20px;
+    width: 30px;
+    background-image: url(image/l1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-top: 2px;
+}
+.loc p{
+    font-size: 10px;
+
+}
+.loc1{
+    margin-left: 200px;
+   
+
+}
+.logo {
+    width: 110px;
+    height: 50px;
+    
+}
+.animated-border {
+    position: absolute;
+    margin-right: 255px;
+    margin-bottom: 20px;
+}
+
+/* code end for navbar */
+
+/* code start for main  */
+#mainindex {
+height: 2650px;
+}
+.heading1 {
+font-size: 40px;
+text-align: center;
+margin-top: 10px;
+}
+.heading2 {
+font-size: 14px;
+margin-bottom: 6px;
+}
+.slider {
+height: 240px;
+}
+#info {
+font-size: 14px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+#amd {
+font-size: 14px;
+}
+#amd1 {
+font-size: 14px;
+}
+#amd2{
+font-size: 14px;
+}
+#amd3{
+font-size: 14px;
+}
+#amd4{
+font-size: 14px;
+margin-top: 7px;
+}
+.call {
+font-size: 14px;
+}
+.box {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 300px;
+height: 300px;
+}
+.bp {
+font-size: 14px;
+margin-bottom: 3px;
+}
+.boxp {
+width: 280px;
+height: 266px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+#box1 {
+margin: 0;
+margin-bottom: 30px;
+}
+#box2 {
+margin: 0;
+position: static;
+margin-bottom: 30px;
+}
+#box3 {
+margin: 0;
+margin-bottom: 30px;
+}
+#box4 {
+margin: 0;
+position: static;
+margin-bottom: 30px;
+
+}
+#box5 {
+margin: 0;
+margin-bottom: 30px;
+}
+#box6 {
+margin: 0;
+position: static;
+}
+/* code end for main */
+
+/* code start for footer  */
+.footer {
+    height: 120px;
+}
+
+
+.what {
+    height: 30px;
+    width: 120px;
+    margin-bottom: 70px;
+}
+.wlogo {
+    height: 30px;
+    width: 120px;
+}
+.copy{
+    font-size: 10px;
+    margin-top: 90px;
+}
+.l1 {
+    font-size: 12px;
+    display: inline;
+}
+.l {
+    width: 288px;
+    height: 30px;
+    margin-top: 15px;
+}
+.limage {
+    height: 25px;
+    width: 25px;
+}
+
+/* code end for footer */
+}
+
+
+
+
+
+@media screen and (max-width: 376px) {
+    /* code start for navbar */
+    .toolbar{
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+.toolbar1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 20px;
+}
+.tool {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 20px;
+}
+.home{
+  margin: 0;
+  font-size: 12px;
+  
+}
+.aboutus{
+    margin: 0;
+    font-size: 12px;
+}
+.photo{
+    margin: 0;
+    font-size: 12px;
+}
+.login{
+    margin-left: 0px;
+    font-size: 12px;
+}
+.number{
+    margin: 0;position: absolute;
+    margin-right: 0px;
+    margin-top: 65px;
+    width: 191px;
+}
+.number p{
+    font-size: 10px;
+    
+}
+.loc{
+    margin: 0;
+    font-size: 10px;
+    height: 50px;
+    width: 200px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+.nimage {
+    height: 20px;
+    width: 30px;
+    background-image: url(image/l1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-top: 2px;
+}
+.loc p{
+    font-size: 10px;
+
+}
+.loc1{
+    margin-left: 200px;
+   
+
+}
+.logo {
+    width: 110px;
+    height: 50px;
+    
+}
+.animated-border {
+    position: absolute;
+    margin-right: 230px;
+    margin-bottom: 20px;
+}
+
+/* code end for navbar */
+
+/* code start for main  */
+#mainindex {
+    height: 2370px;
+}
+.heading1 {
+    font-size: 39px;
+    text-align: center;
+    margin-top: 10px;
+}
+.heading2 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.slider {
+    height: 240px;
+}
+#info {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#amd {
+    font-size: 14px;
+}
+#amd1 {
+    font-size: 14px;
+}
+#amd2{
+    font-size: 14px;
+}
+#amd3{
+    font-size: 14px;
+}
+#amd4{
+    font-size: 14px;
+    margin-top: 7px;
+}
+.call {
+    font-size: 14px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 250px;
+}
+.bp {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.boxp {
+    width: 230px;
+    height: 221px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#box1 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+#box2 {
+    margin: 0;
+    position: static;
+    margin-bottom: 30px;
+}
+#box3 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+#box4 {
+    margin: 0;
+    position: static;
+    margin-bottom: 30px;
+    
+}
+#box5 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+#box6 {
+    margin: 0;
+    position: static;
+}
+
+/* code end for main */
+
+/* code start for footer  */
+.footer {
+    height: 120px;
+}
+
+
+.what {
+    height: 25px;
+    width: 100px;
+    margin-bottom: 70px;
+}
+.wlogo {
+    height: 25px;
+    width: 100px;
+}
+.copy{
+    font-size: 10px;
+    margin-top: 90px;
+}
+.l1 {
+    font-size: 12px;
+    display: inline;
+}
+.l {
+    width: 288px;
+    height: 30px;
+    margin-bottom: 0;
+}
+.limage {
+    height: 25px;
+    width: 25px;
+}
+
+/* code end for footer */
+}
+
+
+
+
+
+@media screen and (max-width: 367px) {
+    #mainindex {
+        height: 2420px;
+    }
+    .slider {
+        height: 210px;
+    }
+}
+
+
+
+@media screen and (max-width: 321px) {
+    .slider {
+        height: 210px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* code start for login page */
+@media screen and (max-width: 431px) {
+
+    #mainlogin {
+        height: 480px;
+    }
+
+    .login-container {
+        height: 350px;
+        width: 300px;
+    }
+    #mainlogin h4{
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .contact-input {
+        width: 250px;
+        height: 25px;
+        border-radius: 10px;
+        border: none;
+       
+        border: none;
+        font-size: 13px;
+    }
+    .contact-main h2 {
+        font-weight: 200;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        position: absolute;
+        margin-bottom: 300px;
+        margin-right: 100px;
+        font-family: "Tangerine", cursive;
+    
+    }
+    .contact-main hr {
+        border: none;
+        width: 100px;
+        height: 3px;
+        margin-right: 160px;
+        background-color: azure;
+        position: absolute;
+        margin-bottom: 250px;
+        border-radius: 2px;
+    
+    }
+    #input1 {
+        position: absolute;
+        margin-bottom: 180px;
+    }
+    #input2 {
+        position: absolute;
+       margin-bottom: 90px;
+    }
+    #input3 {
+        position: absolute;
+        margin-bottom: 40px;
+    }
+    .login-container textarea {
+        position: absolute;
+        margin-top: 150px;
+    }
+    .contact-main button {
+        font-size: 15px;
+        text-align: center;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 290px;
+    }
+    .contact-main {
+        height: 350px;
+        width: 300px;
+    }
+}
+/* code end for login page */
+
+
+
+/* code start for photo page */
+
+@media screen and (max-width: 431px) {
+    #mainphotos {
+        height: 2800px;
+    }
+.line1 {
+    width: 340px;
+    height: 110px;
+    border-radius: 10px;
+}
+.line2 {
+    width: 360px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.p {
+    margin: 0;
+    padding: 0;
+     height: 95px;
+     border-radius: 10px;
+     
+ }
+ .thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+ .p img {
+    height: 95px;
+    width: 100px;
+    border-radius: 10px;
+}
+}
+
+
+
+
+@media screen and (max-width: 358px) {
+#mainphotos {
+    height: 2300px;
+}
+#mainphotos h2 {
+    font-size: 22px;
+}
+.photo123 {
+    margin-top: 15px;
+}
+.line1 {
+    width: 290px;
+    height: 95px;
+    border-radius: 5px;
+}
+.line2 {
+    width: 290px;
+    height: 95px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.p {
+    margin: 0;
+    padding: 0;
+     height: 80px;
+     border-radius: 5px;
+     
+ }
+ .thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+ .p img {
+    height: 80px;
+    width: 85px;
+    border-radius: 5px;
+}
+}
+
+/* code end for photo page */
+
+
+
+/* code start for about us page */
+@media screen and (max-width: 431px) {
+    #mainabout {
+        height: fit-content;
+    }
+    #mainabout h1 {
+        margin-top: 20px;
+        font-size: 22px;
+        text-align: center;
+    }
+    #mainabout p {
+        font-size: 14px;
+        font-family: "Almendra", serif;
+        font-weight: 600;
+    }
+    .pfont {
+        display: inline;
+    }
+    .p1 {
+        width: 80%;
+        font-family: "Almendra", serif;
+        font-weight: 500;
+    }
+    .p2 {
+        width: 80%;
+        font-family: "Almendra", serif;
+        font-weight: 500;
+    }
+    .p3 {
+        width: 80%;
+        font-family: "Almendra", serif;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+}
+/* code end for about us page */

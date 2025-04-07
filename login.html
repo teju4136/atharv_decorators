@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv mandap decorators login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+   <!-- code start for header  -->
+    <header>
+      <div class="toolbar">
+         <div class="animated-border">
+            <div class="logo">
+            </div>
+         </div>
+         <div class="loc">
+            <div class="nimage"></div>
+            <p>OUR SERVICES LOCATION :- KALAMBOLI, PANVEL, KAMOTHE,
+               
+               KHARGHAR, NAVI-MUMBAI, PIN-410218 
+            </p>
+         </div>
+         <div class="number">
+            <p> 📞 +91 9930834640
+              
+                📞 +91 8108934136
+            </p>
+         </div>
+       </div>
+       <a href="#"  class="nav-toggle" id="nav-toggle">
+         <i class="fa-solid fa-bars" ></i>
+       </a>
+       <div class="tool">
+       <div class="toolbar1 " id="toolbar1">
+         
+            <li class="navli"><a href="index.html" class="home"> HOME</a></li>
+            <li class="navli"><a href="about.html" class="aboutus"> ABOUT US</a></li>
+            <li class="navli"><a href="photos.html" class="photo"> PHOTOS</a></li>
+            <li class="navli"><a href="login.html" class="login"> QUERY</a></li>
+         
+       </div>
+      </div>
+     </header>
+   <!-- code end for header -->
+
+    <!-- code start for main  -->
+<main>
+    <div class="main" id="mainlogin">
+
+      <H4>✵ASK YOUR QUESTION✵</H4>
+      <div class="login-container">
+
+         <form action="https://api.web3forms.com/submit" method="POST" class="contact-main">
+          <h2>Get In Touch</h2>
+          <hr>
+          <input type="hidden" name="access_key" value="de4bf00f-448e-4bd3-a44d-eea9e0ab4fbc">
+          <input type="text" name="name" placeholder="YOUR NAME" class="contact-input" id="input1" required>
+          <input type="email" name="email" placeholder="YOUR EMAIL" class="contact-input" id="input2" required>
+          <input type="number" name="number" placeholder="MOBILE NUMBER" class="contact-input" id="input3" required>
+          <textarea name="message" placeholder="YOUR MESSAGE/QUESTION" class="contact-input" required></textarea>
+          <button type="submit"> SUBMIT ➾</button>
+
+         </form>
+      </div>
+
+
+    </div>
+</main> 
+
+<!-- code end for main  -->
+
+<!-- footer -->
+<footer>
+    <div class="footer">
+       <div class="what">
+          <a href="https://wa.me/919930834640" class="wlogo"></a>
+       </div>
+ 
+       <div class="l">
+          <div class="limage"></div>
+          <p class="l1">
+             OUR SERVICES LOCATION :- KALAMBOLI, PANVEL, KAMOTHE, KHARGHAR, NAVI-MUMBAI, PIN-410218 
+          </p>
+       </div>
+       
+       <div class="copy"> ©All Right Reserved With 
+          <a href="#" style="color: rgba(255, 255, 255,0.7);">atharvdecorators.com</a>
+       </div>
+     
+ 
+ 
+ 
+    </div>
+  </footer>
+
+ <!-- code start for loader page -->
+        
+ <div class="loader-container">
+   <div class="loader">
+       <div class="animated-border1">
+           <div class="logo12">
+           </div>
+        </div>
+   </div>
+</div>
+
+<!-- code start for loader page -->
+
+  <script>
+  // code for navbar
+  const toggleButton = document.getElementById('nav-toggle');
+     const toolbar1 = document.getElementById('toolbar1');
+     
+     toggleButton.addEventListener('click', () => {
+         toolbar1.classList.toggle('active')
+     })
+
+
+        // Example JavaScript to hide loader when content is loaded
+   window.addEventListener('load', function() {
+       document.querySelector('.loader-container').style.display = 'none';
+   });
+
+   // Or if you want to control it manually:
+   // setTimeout(() => {
+   //     document.querySelector('.loader-container').style.display = 'none';
+   // }, 3000);
+    </script>
+</body>
+</html>
